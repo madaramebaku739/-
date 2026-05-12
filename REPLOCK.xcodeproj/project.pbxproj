@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D179879395701492341DECF8 /* REPLOCKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53278A8CA5CADBD8EED992A /* REPLOCKApp.swift */; };
+		DD19DC5EA6A91B403A7B84F3 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E59B97C81DA77F1F9D4CD2 /* Exercise.swift */; };
+		F3AC5389D2A76609306799EB /* RepLockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B958196E63C466984ABBB /* RepLockState.swift */; };
+		DF2D576215681A7EE558C94F /* RepLockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEE4F6E4BA352055900E2D /* RepLockStore.swift */; };
+		AE658C80FCCE245484B2C258 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B194DD9CE6717621529AAF7 /* AppTheme.swift */; };
+		3E2CF632E010426B82782CB0 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666F0CC51F3D34186A2425CB /* Components.swift */; };
+		F322BAD71D96B31F1CCC1805 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F999F085CF40E6D7547FBA0 /* HomeView.swift */; };
+		216A9501C03D67B0791C0C73 /* MonthlyGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6ADDE07D2EC73A5141286A /* MonthlyGoalView.swift */; };
+		9CE47ED5541C6B5C0DE98332 /* ExerciseSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A94A19AAB05D55B9B4DF7A /* ExerciseSelectionView.swift */; };
+		6E753BB66432446A2ABD1FC0 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9F55B761A83E0D74BBBDD /* CountView.swift */; };
+		A2EE33B48F74303159D80507 /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91767E391276DF781F8294 /* AchievementView.swift */; };
+		ADCCE1638A45BF4D1C68EB34 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440D69D024E6B9D58AF401F4 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A0B00000000000000000001 /* REPLOCK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REPLOCK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53278A8CA5CADBD8EED992A /* REPLOCKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REPLOCKApp.swift; sourceTree = "<group>"; };
+		D1E59B97C81DA77F1F9D4CD2 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Exercise.swift; sourceTree = "<group>"; };
+		504B958196E63C466984ABBB /* RepLockState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RepLockState.swift; sourceTree = "<group>"; };
+		D0CEE4F6E4BA352055900E2D /* RepLockStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/RepLockStore.swift; sourceTree = "<group>"; };
+		2B194DD9CE6717621529AAF7 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design/AppTheme.swift; sourceTree = "<group>"; };
+		666F0CC51F3D34186A2425CB /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Components.swift; sourceTree = "<group>"; };
+		3F999F085CF40E6D7547FBA0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/HomeView.swift; sourceTree = "<group>"; };
+		6D6ADDE07D2EC73A5141286A /* MonthlyGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MonthlyGoalView.swift; sourceTree = "<group>"; };
+		16A94A19AAB05D55B9B4DF7A /* ExerciseSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ExerciseSelectionView.swift; sourceTree = "<group>"; };
+		D4E9F55B761A83E0D74BBBDD /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/CountView.swift; sourceTree = "<group>"; };
+		DF91767E391276DF781F8294 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/AchievementView.swift; sourceTree = "<group>"; };
+		440D69D024E6B9D58AF401F4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0B00000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A0B00000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				6A0B00000000000000000004 /* REPLOCK */,
+				6A0B00000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A0B00000000000000000004 /* REPLOCK */ = {
+			isa = PBXGroup;
+			children = (
+				A53278A8CA5CADBD8EED992A /* REPLOCKApp.swift */,
+				D1E59B97C81DA77F1F9D4CD2 /* Exercise.swift */,
+				504B958196E63C466984ABBB /* RepLockState.swift */,
+				D0CEE4F6E4BA352055900E2D /* RepLockStore.swift */,
+				2B194DD9CE6717621529AAF7 /* AppTheme.swift */,
+				666F0CC51F3D34186A2425CB /* Components.swift */,
+				3F999F085CF40E6D7547FBA0 /* HomeView.swift */,
+				6D6ADDE07D2EC73A5141286A /* MonthlyGoalView.swift */,
+				16A94A19AAB05D55B9B4DF7A /* ExerciseSelectionView.swift */,
+				D4E9F55B761A83E0D74BBBDD /* CountView.swift */,
+				DF91767E391276DF781F8294 /* AchievementView.swift */,
+				440D69D024E6B9D58AF401F4 /* SettingsView.swift */,
+			);
+			path = REPLOCK;
+			sourceTree = "<group>";
+		};
+		6A0B00000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0B00000000000000000001 /* REPLOCK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A0B00000000000000000006 /* REPLOCK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0B00000000000000000007 /* Build configuration list for PBXNativeTarget "REPLOCK" */;
+			buildPhases = (
+				6A0B00000000000000000008 /* Sources */,
+				6A0B00000000000000000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REPLOCK;
+			productName = REPLOCK;
+			productReference = 6A0B00000000000000000001 /* REPLOCK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A0B00000000000000000009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6A0B00000000000000000006 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6A0B0000000000000000000A /* Build configuration list for PBXProject "REPLOCK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				en,
+				Base,
+			);
+			mainGroup = 6A0B00000000000000000003;
+			productRefGroup = 6A0B00000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A0B00000000000000000006 /* REPLOCK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0B00000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D179879395701492341DECF8 /* REPLOCKApp.swift in Sources */,
+				DD19DC5EA6A91B403A7B84F3 /* Exercise.swift in Sources */,
+				F3AC5389D2A76609306799EB /* RepLockState.swift in Sources */,
+				DF2D576215681A7EE558C94F /* RepLockStore.swift in Sources */,
+				AE658C80FCCE245484B2C258 /* AppTheme.swift in Sources */,
+				3E2CF632E010426B82782CB0 /* Components.swift in Sources */,
+				F322BAD71D96B31F1CCC1805 /* HomeView.swift in Sources */,
+				216A9501C03D67B0791C0C73 /* MonthlyGoalView.swift in Sources */,
+				9CE47ED5541C6B5C0DE98332 /* ExerciseSelectionView.swift in Sources */,
+				6E753BB66432446A2ABD1FC0 /* CountView.swift in Sources */,
+				A2EE33B48F74303159D80507 /* AchievementView.swift in Sources */,
+				ADCCE1638A45BF4D1C68EB34 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A0B0000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A0B0000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A0B0000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dopamine Lock";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Dopamine Lockは端末内の姿勢判定で運動回数を記録するためにカメラを使用します。映像は外部に送信されません。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.REPLOCK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6A0B0000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dopamine Lock";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Dopamine Lockは端末内の姿勢判定で運動回数を記録するためにカメラを使用します。映像は外部に送信されません。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.REPLOCK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A0B0000000000000000000A /* Build configuration list for PBXProject "REPLOCK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0B0000000000000000000B /* Debug */,
+				6A0B0000000000000000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0B00000000000000000007 /* Build configuration list for PBXNativeTarget "REPLOCK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0B0000000000000000000D /* Debug */,
+				6A0B0000000000000000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A0B00000000000000000009 /* Project object */;
+}
